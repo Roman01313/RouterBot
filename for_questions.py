@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
-def get_yes_no_kb() ->  ReplyKeyboardMarkup:
+def get_yes_no_kb():
     kb = ReplyKeyboardBuilder()
     kb.button(text='yes')
     kb.button(text='no')
